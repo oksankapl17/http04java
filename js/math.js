@@ -20,8 +20,7 @@ else {
 }
 
 function calcD(a, b, c) {
-  const d = (b * b) - (4 * a * c);
-  return d;
+  return (b * b) - (4 * a * c);
 }
 
 function solve(descr, a, b) {
